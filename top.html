@@ -1,0 +1,26 @@
+<html>
+	<head>
+		<title>top</title>
+		<script language="javascript">
+			function home()
+			{
+				if(window.confirm("确定回到主页吗"))
+					window.open("./PersonalHomepage.html");
+			}
+		</script>
+	</head>
+	<body background=.\top.jpg style="color:white">
+		<h1 style="text-align:center;">学习机的个人主页</h1>
+		<table style="position:absolute; left:300px;" cellspacing="30px">
+			<tr> <th><a href="rizhi.html" target="left" style="color:white">日志</a></th>
+				 <th><a href="kechengbiao.html" target="left" style="color:white">课程表</a></th>
+				 <th><a href="MyVideo.html" target="left" style="color:white">我的视频</a></th>
+				 <th><a href="MyMusic.html" target="left" style="color:white">我的音乐</a></th>
+				 <th><a href="MyImage.html" target="left" style="color:white">我的相册</a></th>
+				 </tr>
+		</table>
+		<form style="position:absolute; left:800px; top:100px">
+			<input type="Button" value="回到主页" onclick="home()"></br>
+		</form>
+	</body>
+</html>
